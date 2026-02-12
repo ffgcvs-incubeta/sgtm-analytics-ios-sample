@@ -22,5 +22,4 @@ You need to update the URL Types in Xcode to match your own Firebase project:
 3. Go to the **Info** tab
 4. Scroll down to **URL Types**
 5. Update the **Identifier** to your app's bundle identifier (e.g. `com.yourcompany.yourapp`)
-6. Update the **URL Scheme** to your reversed client ID found in your `GoogleService-Info.plist` under the `REVERSED_CLIENT_ID` key
-7. Add an additional **URL Scheme** in the sGTM expected format: `tagmanager.sgtm.c.{{package name}}` (e.g. `tagmanager.sgtm.c.com.ffgcvs.testapp`)
+6. Update the **URL Scheme** in the sGTM expected format: `tagmanager.sgtm.c.{{package name}}` (e.g. `tagmanager.sgtm.c.com.ffgcvs.testapp`)
